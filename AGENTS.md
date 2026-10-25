@@ -44,7 +44,7 @@ For any project update, keep `README.md` aligned (behavior, configuration, deplo
 ---
 
 **Last Updated**: 2026-10-25
-**Current Version**: 1.0.3
+**Current Version**: 1.0.4
 
 ## Backlog (Nestor second-brain)
 

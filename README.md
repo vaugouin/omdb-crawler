@@ -42,7 +42,7 @@ Cron, once a day:
 20 4 * * * bash /home/debian/docker/omdb-crawler/omdb-crawler.sh >> /home/debian/docker/omdb-crawler/omdb-cron.log 2>&1
 ```
 
-`on.sh` / `off.sh` rename the wrapper to enable or disable the cron run.
+`off.sh` writes the flag file `CRON_OFF`, which makes the wrapper exit at once, and `on.sh` deletes it: that disables and enables the cron run.
 
 ## Licence of the data
 

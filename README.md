@@ -26,7 +26,7 @@ At 950 requests a day, the ~450,000 ids take more than a year; the most voted ti
 
 ## Configuration
 
-Copy `.env.example` to `.env` (same database keys as the other crawlers) and set `OMDB_API_KEY` (free key: https://www.omdbapi.com/apikey.aspx, 1,000 requests a day). Optional keys: `OMDB_DAILY_LIMIT` (default 950), `OMDB_REFRESH_DAYS` (90), `OMDB_REQUEST_DELAY_SECONDS` (1), `OMDB_MAX_RETRIES` (4).
+Copy `.env.example` to `.env` (same database keys as the other crawlers) and set `OMDB_API_KEY` (free key: https://www.omdbapi.com/apikey.aspx, 1,000 requests a day). Optional keys: `OMDB_DAILY_LIMIT` (default 950), `OMDB_REFRESH_DAYS` (90), `OMDB_REQUEST_DELAY_SECONDS` (1), `OMDB_MAX_RETRIES` (4), `OMDB_API_URL` (default `https://www.omdbapi.com/`).
 
 ## Deployment (VPS)
 

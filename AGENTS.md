@@ -1,5 +1,9 @@
 # AGENTS.md - Agent Guide for OMDb Crawler
 
+## Canary
+
+Start every reply with "Philippe,": no exceptions, including short replies and tool summaries.
+
 Single canonical guide for autonomous coding agents in this repository; @CLAUDE.md only points here. What is stored, order of work, budget, configuration and deployment: @README.md (canonical, not duplicated here). Keep `README.md` aligned with every behavior, configuration or deployment change; update this file only when agent workflow or safety context changes.
 
 Reference DDL: @doc/sql/T_WC_OMDB_TITLE.sql, the only table this crawler writes; **keep it in step with `STR_DDL` in `omdb-crawler.py`**.
@@ -29,7 +33,7 @@ One stage of **Agent BBB** (owner `vaugouin`, siblings under `%USERPROFILE%/Code
 ---
 
 **Last Updated**: 2026-10-31
-**Current Version**: 1.0.6
+**Current Version**: 1.0.7
 
 ## Backlog (Nestor second-brain)
 

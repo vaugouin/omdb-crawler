@@ -14,7 +14,7 @@ Reference DDL: @doc/sql/T_WC_OMDB_TITLE.sql, the only table this crawler writes;
 
 One stage of **Agent BBB** (owner `vaugouin`, siblings under `%USERPROFILE%/Code/<repo>`), converging on a shared MariaDB (`T_WC_*`) and ChromaDB. Canonical roster: `%USERPROFILE%/Nestor/projets/t2s-backlog/topics/related-repositories.txt`.
 
-**This repository's role:** Acquisition. One OMDb request per IMDb id of `T_WC_T2S_MOVIE` / `T_WC_T2S_SERIE`, upserted into `T_WC_OMDB_TITLE`. Split from `imdb-crawler` on 2026-10-21 (IMDb TSV bulk import: different source, mode and licence). Reader: `tmdb-front` (`f_omdbdisplay`, TMDB-FRONT-108).
+**This repository's role:** Acquisition. One OMDb request per IMDb id of `T_WC_T2S_MOVIE` / `T_WC_T2S_SERIE`, upserted into `T_WC_OMDB_TITLE`. Split from `imdb-crawler` on 2026-10-21 (IMDb TSV bulk import: different source, mode and licence). Reader: the web front `t2s-front` (`f_omdbdisplay`, TMDB-FRONT-108; formerly in `tmdb-front`).
 
 ---
 
@@ -33,7 +33,7 @@ One stage of **Agent BBB** (owner `vaugouin`, siblings under `%USERPROFILE%/Code
 ---
 
 **Last Updated**: 2026-10-31
-**Current Version**: 1.0.7
+**Current Version**: 1.0.8
 
 ## Backlog (Nestor second-brain)
 
